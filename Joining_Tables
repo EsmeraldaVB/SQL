@@ -1,0 +1,6 @@
+Code provided/exercises taught by Datacamp, 260123
+
+-- Select all from a dataset
+SELECT *
+FROM cities
+
