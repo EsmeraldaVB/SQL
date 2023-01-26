@@ -1,6 +1,11 @@
 Code provided/exercises taught by Datacamp, 260123
 
--- Select all from a dataset
+-- Select all from a dataset called cities
 SELECT *
 FROM cities
 
+-- Select name fields (with alias) and region 
+SELECT cities.name AS city, countries.name AS country, region
+FROM cities
+INNER JOIN countries
+ON cities.country_code = countries.code;
